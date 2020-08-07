@@ -1,0 +1,17 @@
+{
+	"name": "ottigan/oo-php",
+	"description": "test",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Ottigan",
+			"email": "jmalcans91@gmail.com"
+		}
+	],
+	"require": {}
+}
