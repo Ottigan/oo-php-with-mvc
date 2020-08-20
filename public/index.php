@@ -21,8 +21,6 @@ require "../vendor/autoload.php";
         <?php
         $user = new App\Views\UsersView();
         $user->displayUser("Janis");
-        $newUser = new \App\Controllers\UsersController();
-        $newUser->signUp("Ottigan", "Kaposti");
         ?>
         <form action="" method="POST">
             <label for="username">Username</br><input id="username" name="username" type="text" minlength="8" maxlength="20" pattern="[a-zA-Z ]+" required></label>
@@ -33,7 +31,7 @@ require "../vendor/autoload.php";
             <button type="submit" formaction="">Sign Up</button>
         </form>
     </section>
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

@@ -1,11 +1,19 @@
 {
-  "name": "oo-php",
-  "version": "1.0.0",
-  "description": "OO PHP Test attempting MVC Pattern",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ottigan",
-  "license": "ISC"
+	"name": "oo-php",
+	"version": "1.0.0",
+	"description": "OO PHP Test attempting MVC Pattern",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ottigan",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ottigan/oo-php-with-mvc.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Ottigan/oo-php-with-mvc/issues"
+	},
+	"homepage": "https://github.com/Ottigan/oo-php-with-mvc#readme"
 }
